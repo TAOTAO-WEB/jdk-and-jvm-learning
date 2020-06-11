@@ -1,7 +1,4 @@
-package com.company.jvm.chap2;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.learn.jvm.chap2;
 
 //运行时，常量池是方法区的一部分
 //常量池导致内存溢出异常 jdk1.7之后while循环会一直循环下去

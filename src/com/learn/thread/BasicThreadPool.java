@@ -1,4 +1,4 @@
-package com.company.thread;
+package com.learn.thread;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

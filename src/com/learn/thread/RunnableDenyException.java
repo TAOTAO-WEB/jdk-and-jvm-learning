@@ -1,4 +1,4 @@
-package com.company.thread;
+package com.learn.thread;
 
 public class RunnableDenyException extends RuntimeException{
     public RunnableDenyException(String message){

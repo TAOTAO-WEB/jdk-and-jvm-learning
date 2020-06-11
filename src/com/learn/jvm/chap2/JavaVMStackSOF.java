@@ -1,4 +1,4 @@
-package com.company.jvm.chap2;
+package com.learn.jvm.chap2;
 
 //java虚拟机栈和本地方法栈OOM测试
 public class JavaVMStackSOF {

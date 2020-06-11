@@ -1,4 +1,4 @@
-package com.company.thread;
+package com.learn.thread;
 
 public interface ThreadPool {
     //提交任务到线程池

@@ -1,4 +1,4 @@
-package com.company.jvm.chap2;
+package com.learn.jvm.chap2;
 
 import java.util.ArrayList;
 import java.util.List;

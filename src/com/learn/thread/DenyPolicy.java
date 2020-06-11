@@ -1,4 +1,4 @@
-package com.company.thread;
+package com.learn.thread;
 
 @FunctionalInterface
 public interface DenyPolicy {

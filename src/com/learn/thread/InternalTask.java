@@ -1,4 +1,4 @@
-package com.company.thread;
+package com.learn.thread;
 
 public class InternalTask implements Runnable {
     private final RunnableQueue runnableQueue;
