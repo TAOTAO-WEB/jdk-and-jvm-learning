@@ -1,4 +1,4 @@
-package com.learn.thread;
+package com.learn.thread.myThreadPool;
 
 //任务队列，主要用于缓存提交到线程池中的任务
 public interface RunnableQueue {

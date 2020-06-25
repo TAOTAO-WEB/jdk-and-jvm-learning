@@ -1,4 +1,4 @@
-package com.learn.thread;
+package com.learn.thread.myThreadPool;
 
 import java.util.LinkedList;
 

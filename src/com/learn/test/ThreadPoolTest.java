@@ -1,7 +1,7 @@
 package com.learn.test;
 
-import com.learn.thread.BasicThreadPool;
-import com.learn.thread.ThreadPool;
+import com.learn.thread.myThreadPool.BasicThreadPool;
+import com.learn.thread.myThreadPool.ThreadPool;
 
 import java.util.concurrent.TimeUnit;
 
