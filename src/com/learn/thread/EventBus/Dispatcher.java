@@ -25,7 +25,7 @@ public class Dispatcher {
     }
 
     public void dispatch(Bus bus,Registry registry,Object event,String topic){
-        //
+        //根据topic获取所有的Subcriber列表
         ConcurrentLinkedQueue<Subscriber> subscribers = registry.scanSubscriber(topic);
         if(null==subscribers){
             if(eventExceptionHandler!=null){
@@ -34,7 +34,7 @@ public class Dispatcher {
             return;
         }
 
-        //
+        //遍历所有的方法并且通过反射的方式进行方法调用
         subscribers.stream().filter(subscriber -> !subscriber.isDisable()).
                 filter(subscriber -> {
                     Method subscribeMethod = subscriber.getSubscribeMethod();
